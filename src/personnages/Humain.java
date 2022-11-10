@@ -2,11 +2,11 @@ package personnages;
 
 public class Humain {
 	
-	private String nom;
-	private int argent;
-	private String boisson;
+	protected String nom;
+	protected int argent;
+	protected String boisson;
 	
-	public Humain(String nom,int argent,String boisson) {
+	public Humain(int argent, String boisson,String nom) {
 		this.nom = nom;
 		this.argent = argent;
 		this.boisson = boisson;
@@ -45,5 +45,6 @@ public class Humain {
 	{
 		this.argent -= argent;
 	}
+	
 	
 }
