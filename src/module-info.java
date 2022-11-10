@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author nicolas
+ *
+ */
+module SAMOURAI {
+}
